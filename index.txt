@@ -1,0 +1,16 @@
+1. How will you perform form validation in react:
+ans: Form validation could be done using a simple function that validates the form element and a robust third party
+libary may be used called Zod. Zod is a typescript first schema declaration that is often used to validate and parse
+data in a typesafe manner.
+
+2. What is Reconcilation in React:
+ans: Reconcilation is the algorithm react uses to update the DOM with the most recent changes in the virtual representation
+of a component. There are four changes
+a. Initial Render
+b. update
+c. Diffing / Reconcilation
+d. Patching
+
+
+3. What is memoization in react
+ans: It is a way of of optimizing performance in react. it can be done using useMemo hook or React.memo. It is an optimization technique
